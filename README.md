@@ -1,7 +1,7 @@
 # Laboratorio-caso2
-Este caso incluye 1.Limpieza y transformación de datos  2.Análisis de datos  3.Visualización de datos 4.Ciencia de datos 5.Ingeniería de Datos 
-Fue elaborado por el grup conformado por Luisa Ortiz, Alexander Yoc, Elman Hernandez, Luis Fernando Aguilón, Alexander Pérez. 
-El contenido: 
+Este caso incluye 1.Limpieza y transformación de datos  2.Análisis de datos  3.Visualización de datos 4.Ciencia de datos 5.Ingeniería de Datos, el proyecto abarca cinco ejercicios distintos en R, cada uno con enfoques específicos de análisis de datos. Incluye desde la limpieza y análisis de datos de una empresa de cuidado de la piel, hasta el análisis poblacional de países y los ingresos de atletas destacados. Además, se exploran modelos de regresión para eficiencia de combustible y se lleva a cabo web scraping para obtener y analizar información de la Fórmula 1. Cada ejercicio proporciona insights únicos mediante visualizaciones y estadísticas, apoyando decisiones estratégicas en diferentes campos con un enfoque integral en la ciencia de datos y la ingeniería de datos.
+Fue elaborado por el grupo conformado por Luisa Ortiz, Alexander Yoc, Elman Hernandez, Luis Fernando Aguilón, Alexander Pérez. 
+ 
 1. Limpieza de datos: Limpieza de Datos
 Se trabajó con una base de datos en el contexto de una empresa que vende productos de cuidado de la piel. 
 ¿Cuáles son los productos de cuidado de la piel más valorados por los clientes?
