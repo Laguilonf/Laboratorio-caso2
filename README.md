@@ -1,8 +1,22 @@
 # Laboratorio-caso2
-Este caso incluye 1.Limpieza y transformación de datos  2.Análisis de datos  3.Visualización de datos 4.Ciencia de datos 5.Ingeniería de Datos, el proyecto abarca cinco ejercicios distintos en R, cada uno con enfoques específicos de análisis de datos. Incluye desde la limpieza y análisis de datos de una empresa de cuidado de la piel, hasta el análisis poblacional de países y los ingresos de atletas destacados. Además, se exploran modelos de regresión para eficiencia de combustible y se lleva a cabo web scraping para obtener y analizar información de la Fórmula 1. Cada ejercicio proporciona insights únicos mediante visualizaciones y estadísticas, apoyando decisiones estratégicas en diferentes campos con un enfoque integral en la ciencia de datos y la ingeniería de datos.
+
 Fue elaborado por el grupo conformado por Luisa Ortiz, Alexander Yoc, Elman Hernandez, Luis Fernando Aguilón, Alexander Pérez. 
- 
-1. Limpieza de datos: Limpieza de Datos
+
+1. INTRODUCCIÓN
+2. DESARROLLO
+A.	LIMPIEZA Y TRANSFORMACIÓN DE DATOS
+B.	ANALISIS DE DATOS
+C.	VISUALIZACIÓN DE DATOS
+D.	CIENCIA DE DATOs
+E.	INGENIERIA DE DATOS
+3. CONCLUSIONES
+4. RECOMENDACIONES
+
+1.Este caso incluye 1.Limpieza y transformación de datos  2.Análisis de datos  3.Visualización de datos 4.Ciencia de datos 5.Ingeniería de Datos, el proyecto abarca cinco ejercicios distintos en R, cada uno con enfoques específicos de análisis de datos. Incluye desde la limpieza y análisis de datos de una empresa de cuidado de la piel, hasta el análisis poblacional de países y los ingresos de atletas destacados. Además, se exploran modelos de regresión para eficiencia de combustible y se lleva a cabo web scraping para obtener y analizar información de la Fórmula 1. Cada ejercicio proporciona insights únicos mediante visualizaciones y estadísticas, apoyando decisiones estratégicas en diferentes campos con un enfoque integral en la ciencia de datos y la ingeniería de datos.
+
+2.Desarrollo 
+
+A. Limpieza de datos: Limpieza de Datos
 Se trabajó con una base de datos en el contexto de una empresa que vende productos de cuidado de la piel. 
 ¿Cuáles son los productos de cuidado de la piel más valorados por los clientes?
 Al analizar las calificaciones de los productos según el número de estrellas, se puede identificar qué productos tienen las mejores valoraciones y son, por lo tanto, los favoritos de los clientes.
@@ -17,7 +31,7 @@ Conocer cuáles productos son altamente valorados y cuáles no tienen calificaci
 ¿Qué productos deben ser promocionados o descontinuados?
 La calidad y la visibilidad de las calificaciones pueden guiar decisiones sobre qué productos promocionar para aumentar su visibilidad y ventas, o cuáles descontinuar si consistentemente reciben malas calificaciones o no generan interés.
 
-2.Análisis de datos:Este análisis se centra en la población de 100 países para los años 2023 y 2024, comparando los cambios en la población y proporcionando visualizaciones claras de los datos. Utilizamos una variedad de técnicas de análisis y visualización de datos para extraer información clave y presentar nuestros hallazgos.     Principales Hallazgos
+B.Análisis de datos:Este análisis se centra en la población de 100 países para los años 2023 y 2024, comparando los cambios en la población y proporcionando visualizaciones claras de los datos. Utilizamos una variedad de técnicas de análisis y visualización de datos para extraer información clave y presentar nuestros hallazgos.     Principales Hallazgos
 Top 10 Países por Población en 2024:
 
 Los diez países con la mayor población proyectada en 2024 incluyen India, China, Estados Unidos, Indonesia, y Pakistán, entre otros.
@@ -32,7 +46,7 @@ Gráfica de Barras: Muestra los 10 valores más altos de la población en 2023.
 Gráfica de Líneas: Compara la población de los top 10 países entre 2023 y 2024.
 Gráfica de Columnas Apiladas: Comparación directa de la población entre 2023 y 2024 para los top 10 países.
 
-3.Visualización de datos:La base de datos presenta los ingresos anuales de varios atletas de diferentes disciplinas deportivas en millones de dólares. Cada fila representa un atleta y su ingreso anual en un año específico. 
+C.Visualización de datos:La base de datos presenta los ingresos anuales de varios atletas de diferentes disciplinas deportivas en millones de dólares. Cada fila representa un atleta y su ingreso anual en un año específico. 
 
 Interpretaciones
 Comparar los ingresos de los atletas fácilmente.
@@ -54,7 +68,7 @@ Observar la distribución de ingresos entre los diferentes atletas.
 Las medidas de posición utilizada fueron:
 Mínimo, media, mediana, maximo, percentil, varianza muestral, desviación estándar muestral
 
-4. Ciencia de datos: En este ejercicio se realizó:
+D. Ciencia de datos: En este ejercicio se realizó:
 Análisis y cálculos de correlación sobre estadísticas vehiculares (mtcars) proporcionadas por defecto en la plataforma R.
 Se muestra un resumen detallado del modelo de regresión lineal ajustado, incluyendo coeficientes, estadísticas de ajuste y significancia de las variables predictoras. Este paso es crucial para entender la relación cuantitativa entre las variables.
 
@@ -65,7 +79,7 @@ Predicción de consumo de combustible: Con el modelo de regresión lineal ajusta
 
 Análisis de rendimiento del motor: El análisis de la relación entre la potencia del motor y la eficiencia de combustible también puede proporcionar información sobre el rendimiento general del motor en términos de economía y potencia, lo cual es crucial para el diseño de motores más eficientes y potentes.
 
-5. Ingeniera de datos: En este ejercicio, se llevó a cabo un proceso completo de web scraping, limpieza de datos y análisis estadístico utilizando el lenguaje de programación R. A continuación, se describen detalladamente los pasos realizados:
+E. Ingeniera de datos: En este ejercicio, se llevó a cabo un proceso completo de web scraping, limpieza de datos y análisis estadístico utilizando el lenguaje de programación R. A continuación, se describen detalladamente los pasos realizados:
 
 Instalación y carga de librerías:
 
@@ -94,4 +108,9 @@ Se guardó el primer párrafo limpio en un archivo de texto (primer_parrafo.txt)
 La tabla de información limpia se guardó en un archivo CSV (infobox_R.csv).
 Las medidas de resumen estadístico se guardaron en otro archivo CSV (summary_stats.csv).
 
+3. Conclusión 
 Este ejercicio demostró cómo utilizar R para realizar web scraping y extraer datos útiles de una página web. Se cubrieron pasos esenciales de limpieza y estructuración de datos, y se realizó un análisis estadístico básico. Finalmente, los resultados se almacenaron en archivos externos para su posterior uso. Este proceso es fundamental para proyectos de análisis de datos que requieren la extracción de información de fuentes en línea y su procesamiento para obtener insights valiosos.
+
+4. Recomendación
+
+En conclusión, este trabajo ha demostrado la efectividad del análisis estadístico y visualización de datos para obtener perspectivas claras y significativas sobre conjuntos de datos complejos. Al explorar las distribuciones, variabilidades y comparaciones temporales de los datos de ingresos y poblaciones, se ha obtenido un entendimiento profundo que puede ser crucial para la toma de decisiones informadas en diversos campos, desde la economía hasta la planificación estratégica y el desarrollo social. Este enfoque subraya la importancia de emplear herramientas analíticas avanzadas para descubrir patrones emergentes y tendencias que no son evidentes a simple vista, facilitando así una mejor comprensión y aplicación de los datos en la práctica.
